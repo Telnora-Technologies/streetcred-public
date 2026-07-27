@@ -1,7 +1,8 @@
 {
   "name": "@wizzybrass/streetcred-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official StreetCred command-line interface",
+  "license": "MIT",
   "bin": {
     "streetcred": "dist/index.js"
   },
