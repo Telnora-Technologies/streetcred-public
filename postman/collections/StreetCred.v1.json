@@ -1,0 +1,56 @@
+{
+  "info": {
+    "name": "StreetCred API v1",
+    "description": "Postman collection for the StreetCred Location Intelligence Platform",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "health"]
+        }
+      }
+    },
+    {
+      "name": "Parse Address",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-API-Key",
+            "value": "{{apiKey}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"raw_address\": \"Behind Total Filling Station opposite Zenith Bank\",\n  \"context\": {\n    \"country\": \"Nigeria\",\n    \"state\": \"Lagos\",\n    \"city\": \"Ikeja\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/addresses/parse",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "addresses", "parse"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    },
+    {
+      "key": "apiKey",
+      "value": "sc_dev_key"
+    }
+  ]
+}

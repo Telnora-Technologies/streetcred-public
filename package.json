@@ -1,0 +1,20 @@
+{
+  "name": "@streetcred/public",
+  "version": "0.1.0",
+  "private": true,
+  "description": "StreetCred public developer tools — SDK, CLI, contracts, examples, and documentation.",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.12.0"
+}
