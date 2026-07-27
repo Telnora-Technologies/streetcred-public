@@ -72,6 +72,24 @@ node packages/streetcred-cli/dist/index.js "Behind Total Filling Station opposit
 
 Set `STREETCRED_API_KEY` and `STREETCRED_BASE_URL` before running the CLI or sample.
 
+## Releases
+
+Package versions and npm publishing are automated with [Changesets](https://github.com/changesets/changesets).
+
+1. After making a change to any package, record it:
+
+   ```bash
+   pnpm changeset
+   ```
+
+   Pick the affected packages, choose a `patch`/`minor`/`major` bump, and describe the change. Commit the generated file in `.changeset/`.
+
+2. When your PR merges to `main`, the **Release** workflow opens a **Version Packages** pull request that applies the pending bumps and updates changelogs.
+
+3. Merging the **Version Packages** PR publishes the updated packages to npm.
+
+Publishing requires the `NPM_TOKEN` repository secret.
+
 ## Documentation
 
 - [API Reference](docs/API.md)

@@ -6,9 +6,13 @@
   "scripts": {
     "build": "pnpm -r run build",
     "test": "pnpm -r run test",
-    "lint": "pnpm -r run lint"
+    "lint": "pnpm -r run lint",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm -r run build && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "@types/node": "^22.5.0",
     "typescript": "^5.5.4"
   },
