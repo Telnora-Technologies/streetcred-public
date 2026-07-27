@@ -1,4 +1,4 @@
-# Telnorat Technologies — StreetCred foundational infrastructure (reference)
+# Telnora Technologies — StreetCred foundational infrastructure (reference)
 #
 # This module defines baseline resources for deploying StreetCred services on
 # a cloud provider. It is intentionally minimal for Phase 1 and is meant to be
