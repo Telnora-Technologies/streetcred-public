@@ -9,7 +9,7 @@
     "lint": "pnpm -r run lint"
   },
   "devDependencies": {
-    "@types/node": "^22.5.0",
+    "@types/node": "^26.1.1",
     "typescript": "^5.5.4"
   },
   "engines": {
