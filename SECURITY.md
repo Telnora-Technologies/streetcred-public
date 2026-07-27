@@ -9,7 +9,7 @@
 ## Reporting a Vulnerability
 
 If you discover a security vulnerability, please do **not** open a public issue.
-Instead, email us at security@telnorat.com with:
+Instead, email us at security@telnora.com with:
 
 * A description of the vulnerability
 * Steps to reproduce
