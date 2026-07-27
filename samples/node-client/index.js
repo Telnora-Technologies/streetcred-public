@@ -1,4 +1,4 @@
-const { StreetCredClient } = require("@streetcred/sdk");
+const { StreetCredClient } = require("@wizzybrass/streetcred-sdk");
 
 async function main() {
   const client = new StreetCredClient({

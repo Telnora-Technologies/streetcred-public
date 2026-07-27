@@ -1,5 +1,5 @@
 {
-  "name": "@streetcred/contracts",
+  "name": "@wizzybrass/streetcred-contracts",
   "version": "0.1.0",
   "description": "Shared TypeScript contracts and DTOs for StreetCred services",
   "main": "dist/index.js",

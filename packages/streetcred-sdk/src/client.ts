@@ -1,7 +1,7 @@
 import {
   ParseAddressRequest,
   ParseAddressResponse,
-} from "@streetcred/contracts";
+} from "@wizzybrass/streetcred-contracts";
 
 export interface StreetCredClientOptions {
   baseUrl: string;

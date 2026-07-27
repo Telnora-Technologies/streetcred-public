@@ -1,5 +1,5 @@
 {
-  "name": "@streetcred/cli",
+  "name": "@wizzybrass/streetcred-cli",
   "version": "0.1.0",
   "description": "Official StreetCred command-line interface",
   "bin": {
@@ -15,7 +15,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@streetcred/sdk": "workspace:*"
+    "@wizzybrass/streetcred-sdk": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.5.0",

@@ -1,6 +1,6 @@
 # StreetCred Node.js Sample Client
 
-A minimal example of using the `@streetcred/sdk` package.
+A minimal example of using the `@wizzybrass/streetcred-sdk` package.
 
 ## Usage
 

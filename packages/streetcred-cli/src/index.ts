@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { StreetCredClient } from "@streetcred/sdk";
+import { StreetCredClient } from "@wizzybrass/streetcred-sdk";
 
 async function main(): Promise<void> {
   const args = process.argv.slice(2);

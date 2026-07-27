@@ -1,12 +1,12 @@
 # StreetCred Developer Tools
 
-Public developer-facing tools for the **StreetCred** Location Intelligence Platform by **Telnorat Technologies**.
+Public developer-facing tools for the **StreetCred** Location Intelligence Platform by **Telnora Technologies**.
 
 This repository contains open-source components that help developers integrate with StreetCred:
 
-- **SDK** — `@streetcred/sdk`
-- **CLI** — `@streetcred/cli`
-- **Contracts** — `@streetcred/contracts`
+- **SDK** — `@wizzybrass/streetcred-sdk`
+- **CLI** — `@wizzybrass/streetcred-cli`
+- **Contracts** — `@wizzybrass/streetcred-contracts`
 - **Sample Applications**
 - **Postman Collections**
 - **Documentation**
@@ -48,7 +48,7 @@ pnpm build
 ### Use the SDK
 
 ```typescript
-import { StreetCredClient } from "@streetcred/sdk";
+import { StreetCredClient } from "@wizzybrass/streetcred-sdk";
 
 const client = new StreetCredClient({
   baseUrl: process.env.STREETCRED_BASE_URL!,
@@ -66,7 +66,7 @@ console.log(result.formatted_address, result.coordinates);
 ### Use the CLI
 
 ```bash
-pnpm --filter @streetcred/cli build
+pnpm --filter @wizzybrass/streetcred-cli build
 node packages/streetcred-cli/dist/index.js "Behind Total Filling Station opposite Zenith Bank"
 ```
 
@@ -82,4 +82,4 @@ Set `STREETCRED_API_KEY` and `STREETCRED_BASE_URL` before running the CLI or sam
 
 ## License
 
-MIT © Telnorat Technologies. See [LICENSE](LICENSE) for details.
+MIT © Telnora Technologies. See [LICENSE](LICENSE) for details.
