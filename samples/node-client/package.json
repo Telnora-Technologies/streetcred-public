@@ -1,5 +1,5 @@
 {
-  "name": "@streetcred/sample-node-client",
+  "name": "@wizzybrass/streetcred-sample-node-client",
   "version": "0.1.0",
   "private": true,
   "description": "Sample Node.js client using the StreetCred SDK",
@@ -7,6 +7,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@streetcred/sdk": "workspace:*"
+    "@wizzybrass/streetcred-sdk": "workspace:*"
   }
 }

@@ -17,7 +17,7 @@ jobs:
           node-version: 22
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: pnpm --filter @streetcred/contracts build
+      - run: pnpm --filter @wizzybrass/streetcred-contracts build
 
   sdk:
     runs-on: ubuntu-latest
@@ -30,9 +30,9 @@ jobs:
           node-version: 22
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: pnpm --filter @streetcred/contracts build
-      - run: pnpm --filter @streetcred/sdk build
-      - run: pnpm --filter @streetcred/sdk lint
+      - run: pnpm --filter @wizzybrass/streetcred-contracts build
+      - run: pnpm --filter @wizzybrass/streetcred-sdk build
+      - run: pnpm --filter @wizzybrass/streetcred-sdk lint
 
   cli:
     runs-on: ubuntu-latest
@@ -45,7 +45,7 @@ jobs:
           node-version: 22
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: pnpm --filter @streetcred/contracts build
-      - run: pnpm --filter @streetcred/sdk build
-      - run: pnpm --filter @streetcred/cli build
-      - run: pnpm --filter @streetcred/cli lint
+      - run: pnpm --filter @wizzybrass/streetcred-contracts build
+      - run: pnpm --filter @wizzybrass/streetcred-sdk build
+      - run: pnpm --filter @wizzybrass/streetcred-cli build
+      - run: pnpm --filter @wizzybrass/streetcred-cli lint

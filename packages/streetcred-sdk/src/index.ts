@@ -1,2 +1,2 @@
 export { StreetCredClient, StreetCredClientOptions } from "./client";
-export * from "@streetcred/contracts";
+export * from "@wizzybrass/streetcred-contracts";

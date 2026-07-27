@@ -1,5 +1,5 @@
 {
-  "name": "@streetcred/sdk",
+  "name": "@wizzybrass/streetcred-sdk",
   "version": "0.1.0",
   "description": "Official StreetCred TypeScript SDK",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@streetcred/contracts": "workspace:*"
+    "@wizzybrass/streetcred-contracts": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.5.4"

@@ -17,7 +17,7 @@ importers:
 
   packages/streetcred-cli:
     dependencies:
-      '@streetcred/sdk':
+      '@wizzybrass/streetcred-sdk':
         specifier: workspace:*
         version: link:../streetcred-sdk
     devDependencies:
@@ -36,7 +36,7 @@ importers:
 
   packages/streetcred-sdk:
     dependencies:
-      '@streetcred/contracts':
+      '@wizzybrass/streetcred-contracts':
         specifier: workspace:*
         version: link:../streetcred-contracts
     devDependencies:
@@ -46,7 +46,7 @@ importers:
 
   samples/node-client:
     dependencies:
-      '@streetcred/sdk':
+      '@wizzybrass/streetcred-sdk':
         specifier: workspace:*
         version: link:../../packages/streetcred-sdk
 
