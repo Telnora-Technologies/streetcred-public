@@ -1,6 +1,6 @@
-# StreetCred Node.js Sample Client
+# Cartila Node.js Sample Client
 
-A minimal example of using the `@wizzybrass/streetcred-sdk` package.
+A minimal example of using the `@wizzybrass/cartila-sdk` package.
 
 ## Usage
 
@@ -9,4 +9,4 @@ pnpm install
 pnpm start "Behind Total Filling Station opposite Zenith Bank"
 ```
 
-Set `STREETCRED_BASE_URL` and `STREETCRED_API_KEY` to target a different deployment.
+Set `CARTILA_BASE_URL` and `CARTILA_API_KEY` to target a different deployment.

@@ -1,9 +1,9 @@
-const { StreetCredClient } = require("@wizzybrass/streetcred-sdk");
+const { CartilaClient } = require("@wizzybrass/cartila-sdk");
 
 async function main() {
-  const client = new StreetCredClient({
-    baseUrl: process.env.STREETCRED_BASE_URL || "http://localhost:3000",
-    apiKey: process.env.STREETCRED_API_KEY || "sc_dev_key",
+  const client = new CartilaClient({
+    baseUrl: process.env.CARTILA_BASE_URL || "http://localhost:3000",
+    apiKey: process.env.CARTILA_API_KEY || "sc_dev_key",
   });
 
   const rawAddress =

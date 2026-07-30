@@ -1,8 +1,8 @@
 {
-  "name": "@streetcred/public",
+  "name": "@cartila/public",
   "version": "0.1.0",
   "private": true,
-  "description": "StreetCred public developer tools — SDK, CLI, contracts, examples, and documentation.",
+  "description": "Cartila public developer tools — SDK, CLI, contracts, examples, and documentation.",
   "scripts": {
     "build": "pnpm -r run build",
     "test": "pnpm -r run test",

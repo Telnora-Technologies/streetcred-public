@@ -1,8 +1,8 @@
-# StreetCred Architecture
+# Cartila Architecture
 
 ## Overview
 
-StreetCred is built as a collection of bounded contexts, each exposed as an
+Cartila is built as a collection of bounded contexts, each exposed as an
 independently deployable service.
 
 ## Bounded Contexts

@@ -1,27 +1,27 @@
-# StreetCred Developer Tools
+# Cartila Developer Tools
 
-Public developer-facing tools for the **StreetCred** Location Intelligence Platform by **Telnora Technologies**.
+Public developer-facing tools for the **Cartila** Location Intelligence Platform by **Telnora Technologies**.
 
-This repository contains open-source components that help developers integrate with StreetCred:
+This repository contains open-source components that help developers integrate with Cartila:
 
-- **SDK** — `@wizzybrass/streetcred-sdk`
-- **CLI** — `@wizzybrass/streetcred-cli`
-- **Contracts** — `@wizzybrass/streetcred-contracts`
+- **SDK** — `@wizzybrass/cartila-sdk`
+- **CLI** — `@wizzybrass/cartila-cli`
+- **Contracts** — `@wizzybrass/cartila-contracts`
 - **Sample Applications**
 - **Postman Collections**
 - **Documentation**
 - **Baseline Terraform Modules**
 
-> The StreetCred platform services themselves are not open source. This repository only contains client libraries, examples, and developer tooling.
+> The Cartila platform services themselves are not open source. This repository only contains client libraries, examples, and developer tooling.
 
 ## Repository Structure
 
 ```text
-streetcred-public/
+cartila-public/
 ├── packages/
-│   ├── streetcred-contracts/  # Shared TypeScript DTOs
-│   ├── streetcred-sdk/        # TypeScript SDK
-│   └── streetcred-cli/        # Command-line interface
+│   ├── cartila-contracts/  # Shared TypeScript DTOs
+│   ├── cartila-sdk/        # TypeScript SDK
+│   └── cartila-cli/        # Command-line interface
 ├── samples/
 │   └── node-client/           # Example SDK usage
 ├── postman/
@@ -48,11 +48,11 @@ pnpm build
 ### Use the SDK
 
 ```typescript
-import { StreetCredClient } from "@wizzybrass/streetcred-sdk";
+import { CartilaClient } from "@wizzybrass/cartila-sdk";
 
-const client = new StreetCredClient({
-  baseUrl: process.env.STREETCRED_BASE_URL!,
-  apiKey: process.env.STREETCRED_API_KEY!,
+const client = new CartilaClient({
+  baseUrl: process.env.CARTILA_BASE_URL!,
+  apiKey: process.env.CARTILA_API_KEY!,
 });
 
 const result = await client.parseAddress({
@@ -66,11 +66,11 @@ console.log(result.formatted_address, result.coordinates);
 ### Use the CLI
 
 ```bash
-pnpm --filter @wizzybrass/streetcred-cli build
-node packages/streetcred-cli/dist/index.js "Behind Total Filling Station opposite Zenith Bank"
+pnpm --filter @wizzybrass/cartila-cli build
+node packages/cartila-cli/dist/index.js "Behind Total Filling Station opposite Zenith Bank"
 ```
 
-Set `STREETCRED_API_KEY` and `STREETCRED_BASE_URL` before running the CLI or sample.
+Set `CARTILA_API_KEY` and `CARTILA_BASE_URL` before running the CLI or sample.
 
 ## Releases
 
