@@ -1,6 +1,6 @@
-# Telnora Technologies — StreetCred foundational infrastructure (reference)
+# Telnora Technologies — Cartila foundational infrastructure (reference)
 #
-# This module defines baseline resources for deploying StreetCred services on
+# This module defines baseline resources for deploying Cartila services on
 # a cloud provider. It is intentionally minimal for Phase 1 and is meant to be
 # extended with VPCs, Kubernetes clusters, managed databases, and CI/CD hooks.
 
@@ -20,7 +20,7 @@ resource "random_id" "suffix" {
 }
 
 locals {
-  project = "streetcred"
+  project = "cartila"
   suffix  = random_id.suffix.hex
 }
 

@@ -1,6 +1,6 @@
-# Contributing to StreetCred
+# Contributing to Cartila
 
-Thank you for your interest in contributing to the StreetCred platform.
+Thank you for your interest in contributing to the Cartila platform.
 
 ## Getting Started
 

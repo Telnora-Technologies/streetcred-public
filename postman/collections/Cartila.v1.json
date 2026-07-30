@@ -1,7 +1,7 @@
 {
   "info": {
-    "name": "StreetCred API v1",
-    "description": "Postman collection for the StreetCred Location Intelligence Platform",
+    "name": "Cartila API v1",
+    "description": "Postman collection for the Cartila Location Intelligence Platform",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [

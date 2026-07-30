@@ -1,10 +1,11 @@
 {
-  "name": "@wizzybrass/streetcred-sdk",
+  "name": "@wizzybrass/cartila-cli",
   "version": "0.1.1",
-  "description": "Official StreetCred TypeScript SDK",
+  "description": "Official Cartila command-line interface",
   "license": "MIT",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "bin": {
+    "cartila": "dist/index.js"
+  },
   "files": ["dist"],
   "publishConfig": {
     "access": "public",
@@ -15,9 +16,10 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@wizzybrass/streetcred-contracts": "workspace:*"
+    "@wizzybrass/cartila-sdk": "workspace:*"
   },
   "devDependencies": {
+    "@types/node": "^22.5.0",
     "typescript": "^5.5.4"
   }
 }
