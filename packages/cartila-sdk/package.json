@@ -1,7 +1,7 @@
 {
-  "name": "@wizzybrass/streetcred-contracts",
+  "name": "@wizzybrass/cartila-sdk",
   "version": "0.1.1",
-  "description": "Shared TypeScript contracts and DTOs for StreetCred services",
+  "description": "Official Cartila TypeScript SDK",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,9 @@
   "scripts": {
     "build": "tsc",
     "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@wizzybrass/cartila-contracts": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.5.4"

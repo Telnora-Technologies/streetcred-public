@@ -1,12 +1,12 @@
 {
-  "name": "@wizzybrass/streetcred-sample-node-client",
+  "name": "@wizzybrass/cartila-sample-node-client",
   "version": "0.1.0",
   "private": true,
-  "description": "Sample Node.js client using the StreetCred SDK",
+  "description": "Sample Node.js client using the Cartila SDK",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@wizzybrass/streetcred-sdk": "workspace:*"
+    "@wizzybrass/cartila-sdk": "workspace:*"
   }
 }

@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a defect in the StreetCred platform
+about: Report a defect in the Cartila platform
 title: "[BUG] "
 labels: bug
 assignees: ""

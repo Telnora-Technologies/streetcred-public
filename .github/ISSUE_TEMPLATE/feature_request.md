@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest a new capability for StreetCred
+about: Suggest a new capability for Cartila
 title: "[FEATURE] "
 labels: enhancement
 assignees: ""

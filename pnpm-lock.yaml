@@ -15,11 +15,11 @@ importers:
         specifier: ^5.5.4
         version: 5.9.3
 
-  packages/streetcred-cli:
+  packages/cartila-cli:
     dependencies:
-      '@wizzybrass/streetcred-sdk':
+      '@wizzybrass/cartila-sdk':
         specifier: workspace:*
-        version: link:../streetcred-sdk
+        version: link:../cartila-sdk
     devDependencies:
       '@types/node':
         specifier: ^22.5.0
@@ -28,17 +28,17 @@ importers:
         specifier: ^5.5.4
         version: 5.9.3
 
-  packages/streetcred-contracts:
+  packages/cartila-contracts:
     devDependencies:
       typescript:
         specifier: ^5.5.4
         version: 5.9.3
 
-  packages/streetcred-sdk:
+  packages/cartila-sdk:
     dependencies:
-      '@wizzybrass/streetcred-contracts':
+      '@wizzybrass/cartila-contracts':
         specifier: workspace:*
-        version: link:../streetcred-contracts
+        version: link:../cartila-contracts
     devDependencies:
       typescript:
         specifier: ^5.5.4
@@ -46,9 +46,9 @@ importers:
 
   samples/node-client:
     dependencies:
-      '@wizzybrass/streetcred-sdk':
+      '@wizzybrass/cartila-sdk':
         specifier: workspace:*
-        version: link:../../packages/streetcred-sdk
+        version: link:../../packages/cartila-sdk
 
 packages:
 

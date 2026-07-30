@@ -1,4 +1,4 @@
-# StreetCred API Documentation
+# Cartila API Documentation
 
 ## Authentication
 
@@ -10,7 +10,7 @@ user-facing dashboard endpoints.
 Returns the health status of the API Gateway.
 
 ```bash
-curl https://api.streetcred.example.com/api/v1/health
+curl https://api.cartila.example.com/api/v1/health
 ```
 
 ## POST /api/v1/addresses/parse
@@ -78,8 +78,8 @@ metadata.
 Return recent API usage records. Optionally filter by `apiKey` query parameter.
 
 ```bash
-curl https://api.streetcred.example.com/api/v1/billing/usage \
-  -H "X-API-Key: $STREETCRED_API_KEY"
+curl https://api.cartila.example.com/api/v1/billing/usage \
+  -H "X-API-Key: $CARTILA_API_KEY"
 ```
 
 ## GET /api/v1/billing/usage/summary
@@ -87,8 +87,8 @@ curl https://api.streetcred.example.com/api/v1/billing/usage \
 Return aggregated endpoint usage counts.
 
 ```bash
-curl https://api.streetcred.example.com/api/v1/billing/usage/summary \
-  -H "X-API-Key: $STREETCRED_API_KEY"
+curl https://api.cartila.example.com/api/v1/billing/usage/summary \
+  -H "X-API-Key: $CARTILA_API_KEY"
 ```
 
 ### Error Codes
